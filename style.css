@@ -1,0 +1,410 @@
+/* Fonte do início - KoHo */
+
+*{
+    background: gray;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: 'KoHo', sans-serif;
+}
+
+html::-webkit-scrollbar {
+    position: absolute;
+    width: 9px;
+    background-color: transparent;
+    transition: 0.5s ease-in-out;
+}
+html::-webkit-scrollbar-thumb {
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    box-shadow: inset 0 0 5px teal;
+}
+html::-webkit-scrollbar-track{
+    background-color: #285774;
+}
+    /*-----------------------------------------------------------------*/
+   /*                          Seção do Topo                          */
+  /*-----------------------------------------------------------------*/
+
+.SectionTop{
+    height: 80px;
+    width: 100%;
+    background: #13232C;
+}
+.SectionIntrodução{
+    width: 100%;
+    height: 550px;
+    position: relative;
+    transform: translateX(-0px);
+    background: #1A313F;
+    border-radius: 0 0 100% 100%/0 0 10% 10%;
+}
+.DetalheBranco{
+    height: 26px;
+    width: 100%;
+    background: #474747;
+    position: absolute;
+    top: 604px;
+}
+.BemVindo{
+    background: none;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    width: fit-content;
+    height: 150px;
+    transform: translate(-50%);
+    justify-content: center;
+    overflow-y: visible;
+}
+.BemVindoP{
+    background: none;
+    font-size: 3vw;
+    color: white;
+    cursor: default;
+    top: 5px
+}
+
+.BemVindoDetalhe, .BemVindoDetalhe2{
+    background: white;
+    height: 14px;
+    position: relative;
+    top: 5px;
+    width: 100%;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    box-shadow: inset 0 0 10px black;
+}
+.BemVindoDetalhe2{
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    top: 0px;
+}
+
+    /*-----------------------------------------------------------------*/
+   /*                      Seção da Biografia                         */
+  /*-----------------------------------------------------------------*/
+
+.SectionBiografia{
+    height: fit-content;
+    width: 100%;
+    overflow-x: hidden;
+    background: #474747;
+    z-index: 10;
+    font-family: 'KoHo', sans-serif;
+    justify-content: center;
+}
+.BiografiaTitleBox{
+    position: relative;
+    height: 120px;
+    width: 230px;
+    margin-bottom: 150px;
+    background: gray;
+    top: 40px;
+    left: 50%;
+    transform: translate(-50%);
+    text-align: center;
+    border-radius: 100px;
+    box-shadow: -8px 8px rgb(116, 116, 116);
+}
+#BiografiaUser{
+    background: none;
+    height: fit-content;
+    width: fit-content;
+    color: white;
+    transform: scale(3) translateY(10px);
+}
+.BiografiaTitle{
+    background: none;
+    font-size: 35px;
+    color: white;
+    transform: translateY(40px);
+    cursor: default;
+}
+
+.BiografiaTextBox{
+    height: fit-content;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 80%;
+    position: relative;
+    left: 50%;
+    bottom: 0%;
+    transform: translate(-50%, -38%);
+    border-radius: 50px;
+    box-shadow: -10px 10px rgb(116, 116, 116);
+    line-break: normal;
+}
+.BiografiaTexto{
+    width: 94%;
+    height: fit-content;
+    position: relative;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 4vmin;
+    color: white;
+    cursor: default;
+}
+
+    /*-----------------------------------------------------------------*/
+   /*                       Seção dos Status                          */
+  /*-----------------------------------------------------------------*/
+
+.CompServProjSection{
+    height: 650px;
+    width: 100%;
+    border-radius: 50% 50% 0% 0% / 6% 6% 94% 94%;
+    background: #172A32;
+    z-index: 2;
+    position: absolute;
+    text-align: center;
+    overflow-y: hidden;
+}
+.Detalhe2{
+    width: 100%;
+    position: relative;
+}
+.DetalheBranco2{
+    height: 34px;
+    width: 100%;
+    background: #474747;
+}
+
+.DetalhesText{
+    background: none;
+    color: white;
+    font-size: 35px;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -10%);
+    cursor: default;
+}
+.BotõesCaixaGeral{
+    background: none;
+    position: relative;
+    height: 60px;
+    width: 100%;
+    left: 50%;
+    top: 22%;
+    transform: translate(-50%, -22%);
+    z-index: 2;
+    text-align: center;
+}
+.ServiçosBTN, .CompetênciasBTN, .ProjetosBTN{
+    outline: none;
+    color: white;
+    background: gray;
+    width: 25vw;
+    height: 45px;
+    cursor: pointer;
+    box-shadow: -8px 8px rgb(116, 116, 116);
+    font-size: 2vw;
+    transition: 0.3s ease-in-out;
+}
+.ServiçosBTN:hover, .CompetênciasBTN:hover, .ProjetosBTN:hover{
+    background: darkgray;
+    box-shadow: -8px 8px rgb(136, 136, 136);
+}
+.ServiçosBTN:focus, .CompetênciasBTN:focus, .ProjetosBTN:focus{
+    background: darkgray;
+    box-shadow: -8px 8px rgb(136, 136, 136);
+}
+.CompetênciasBTN{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+    /*-----------------------------------------------------------------*/
+   /*                       Competências Imgs                         */
+  /*-----------------------------------------------------------------*/
+/*
+.SCP-Slider{
+    background: pink;
+    height: 350px;
+    width: 3500px;
+    position: absolute;
+    display: inline-flex;
+    bottom: 50px;
+    left: 50%;
+    transform: translate(-50%);
+    justify-content: space-between;
+    transition: 2s ease-in-out;
+    overflow-x: visible;
+}
+*/
+
+.ServiçosDiv{
+    background: gray;
+    position: relative;
+    height: 220px;
+    width: 680px;
+    left: -60%;
+    top: 190px;
+    text-align: center;
+    transform: translate(-50%);
+    transition: 2s ease-in-out;
+    border-radius: 100px;
+    box-shadow: -10px 10px rgb(116 116 116);
+}
+#ServiçosIcon1{
+    position: absolute;
+    background: none;
+    top: 76px;
+    left: 25px;
+    transform: scale(1.8);
+}
+#ServiçosIcon2{
+    position: absolute;
+    background: none;
+    top: 123px;
+    left: 133px;
+    transform: scale(1.8);
+}
+.LiText{
+    position: relative;
+    background: none;
+    color: white;
+    font-size: 35px;
+    width: 700px;
+    left: -1%;
+    top: 60px;
+    cursor: default;
+}
+.CompetênciasDiv{
+    background: gray;
+    position: absolute;
+    height: 250px;
+    width: 50vw;
+    min-width: 350px;
+    text-align: center;
+    display: inline-flex;
+    justify-content: space-evenly;
+    top: 250px;
+    left: 50%;
+    transform: translate(-50%);
+    border-radius: 100px;
+    box-shadow: -10px 10px rgb(116 116 116);
+    transition: 2s ease-in-out;
+}
+.ProjetosDiv{
+    background: none;
+    position: absolute;
+    height: 370px;
+    width: 1100px;
+    left: 160%;
+    top: 250px;
+    transform: translate(-50%);
+    transition: 2s ease-in-out;
+    justify-content: space-around;
+    display: inline-flex;
+}
+.Projeto{
+    height: 350px;
+    width: 330px;
+    border-radius: 20px;
+    background: gray;
+    box-shadow: -10px 10px rgb(116 116 116);
+}
+.Projeto1{
+    margin-right: 25px;
+}
+.Projeto3{
+    margin-left: 25px;
+}
+.Google, .Youtube, .Login{
+    box-shadow: -10px 10px rgb(116 116 116);
+    position: relative;
+    top: 25px;
+    height: 170px;
+    width: 270px;
+    border-radius: 5px;
+}
+.ProjetoTexto{
+    color: white;
+    position: relative;
+    top: 45px;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 25px;
+    cursor: default;
+    background: darkgray;
+    width: 200px;
+    height: 40px;
+    border-radius: 50px;
+}
+.ProjetoTexto3{
+    width: 295px;
+}
+.IconsProjeto{
+    position: relative;
+    left: 230px;
+    top: 73px;
+    height: 24px;
+    width: 80px;
+    justify-content: space-evenly;
+    background: darkgray;
+    transform: scale(2.6) translate(-50%);
+    border-radius: 50px;
+    box-shadow: -3px 3px rgb(116 116 116);
+}
+#Html, #Css, #JavaScript{
+    background: none;
+    position: relative;
+    height: fit-content;
+    width: fit-content;
+    top: 3px;
+}
+#Html{
+    color: rgb(228, 120, 20);
+}
+#Css{
+    margin-left: 5px;
+    margin-right: 5px;
+    color: rgb(0, 107, 150);
+}
+#JavaScript{
+    color: rgb(238, 202, 0)
+}
+
+.HtmlIMG, .CssIMG, .JavaScriptIMG{
+    height: 20vh;
+    width: 10vw;
+    min-width: 100px;
+    min-height: 100px;
+    background: none;
+    position: relative;
+}
+.HtmlIMG{
+    transform:scaleX(0.91);
+    position: relative;
+}
+.CssIMG{
+    transform: scale(1.35);
+}
+.JavaScriptIMG{
+    transform: scale(0.95) translateY(0);
+}
+.HtmlText, .CssText, .JavaScriptText{
+    background: darkgray;
+    border-radius: 50px;
+    color: white;
+    font-size: 25px;
+    cursor: default;
+}
+.CssText{
+    margin-top: 10px;
+}
+.HtmlIcon, .CssIcon, .JavaScriptIcon{
+    background: none;
+    height: fit-content;
+    width: fit-content;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    top: 35px;
+}
