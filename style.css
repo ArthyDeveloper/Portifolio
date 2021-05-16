@@ -754,12 +754,88 @@
         transform: translateX(-155 px);
     }
 }
+@media screen and (max-height: 730px){
+    .Footer{
+        transform: translateY(70px);
+    }
+}
+@media screen and (max-height: 696px){
+    .Footer{
+        transform: translateY(100px);
+    }
+}
+@media screen and (max-height: 666px){
+    .Footer{
+        transform: translateY(130px);
+    }
+}
+@media screen and (max-height: 636px){
+    .Footer{
+        transform: translateY(160px);
+    }
+}
+@media screen and (max-height: 606px){
+    .Footer{
+        transform: translateY(190px);
+    }
+}
+@media screen and (max-height: 576px){
+    .Footer{
+        transform: translateY(220px);
+    }
+}
+@media screen and (max-height: 546px){
+    .Footer{
+        transform: translateY(250px);
+    }
+}
+@media screen and (max-height: 516px){
+    .Footer{
+        transform: translateY(280px);
+    }
+}
+@media screen and (max-height: 486px){
+    .Footer{
+        transform: translateY(310px);
+    }
+}
+@media screen and (max-height: 456px){
+    .Footer{
+        transform: translateY(340px);
+    }
+}
+@media screen and (max-height: 426px){
+    .Footer{
+        transform: translateY(370px);
+    }
+}
+@media screen and (max-height: 396px){
+    .Footer{
+        transform: translateY(400px);
+    }
+}
+@media screen and (max-height: 366px){
+    .Footer{
+        transform: translateY(430px);
+    }
+}
+@media screen and (max-height: 336px){
+    .Footer{
+        transform: translateY(460px);
+    }
+}
+@media screen and (max-height: 306px){
+    .Footer{
+        transform: translateY(490px);
+    }
+}
+
 @media screen and (max-width: 419px){
     .BiografiaTexto{
         transform: translateX(-150px);
     }
     .CompetênciasDiv{
-        transform: scale(0.7) translateY(100px) translateX(-350px);
+        transform: scale(0.7) translateY(-50px) translateX(-350px);
     }
     .ProjetosDiv{
         transform: translateX(-405px) scale(0.5) translateY(-200px);
