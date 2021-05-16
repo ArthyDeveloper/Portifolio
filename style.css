@@ -573,7 +573,7 @@
         transform: translateX(-245px) translateY(130px);
     }
     .BotõesCaixaGeral{
-        transform: translateY(5px) translateX(-345px);
+        left: 50%;
     }
     .ProjetosDiv{
         transform: translateY(-30px) scale(0.7) translateX(-545px);
@@ -592,5 +592,178 @@
 @media screen and (max-width: 686px){
     .BiografiaTexto{
         font-size: 21px;
+    }
+}
+
+@media screen and (max-width: 629px){
+    .BemVindo{
+        transform: scale(1.2) translate(-50%) translateX(23px);
+        left: 50%;
+    }
+    .ProjetosDiv{
+        transform: scale(0.68) translateY(-75px) translateX(-580px);
+    }
+    .CompetênciasDiv{
+        height: 195px;
+    }
+    .ServiçosDiv{
+        width: 550px;
+        transform: translateX(-270px) translateY(130px);
+        justify-content: center;
+        text-align: center;
+        box-shadow: -6px 6px rgb(116, 116, 116);
+    }
+    .LiText{
+        font-size: 25px;
+        transform: translateX(-70px);
+    }
+    #ServiçosIcon1{
+        transform: translateY(-36px) scale(1.4) translateX(13px);
+    }
+    #ServiçosIcon2{
+        transform: translateY(-52px) scale(1.4) translateX(-10px);
+    }
+    .Footer{
+        transform: translateY(70px);
+    }
+}
+
+@media screen and (max-width: 565px){
+    .ServiçosDiv{
+        width: 450px;
+        height: 120px;
+        transform: translateX(-220px) translateY(130px);
+        justify-content: center;
+        text-align: center;
+        box-shadow: -6px 6px rgb(116, 116, 116);
+    }
+    .LiText{
+        font-size: 22px;
+        transform: translateX(-110px);
+    }
+    #ServiçosIcon1{
+        transform: translateY(-39px) scale(1.4) translateX(5px);
+    }
+    #ServiçosIcon2{
+        transform: translateY(-57px) scale(1.4) translateX(-24px);
+    }
+    .BiografiaTexto{
+        transform: translateX(-205px);
+    }
+}
+
+@media screen and (max-width: 565px){
+    .BiografiaTexto{
+        transform: translateX(-195px);
+    }
+    .Footer{
+        transform: translateY(50px);
+    }
+    .ProjetosDiv{
+        transform: scale(0.68) translateY(-40px) translateX(-580px);
+    }
+    .BemVindo{
+        transform: scale(1.3) translate(-50%) translateX(28px);
+        left: 50%;
+    }
+}
+@media screen and (max-width: 521px){
+    .Footer{
+        transform: translateY(80px);
+    }
+    .BiografiaTextBox{
+        transform: translateY(-65px) translateX(-200px);
+    }
+    .BiografiaTexto{
+        transform: translateX(-190px);
+    }
+    .ProjetosDiv{
+        transform: scale(0.68) translateY(-30px) translateX(-568px);
+        overflow-x: visible;
+    }
+}
+@media screen and (max-width: 509px){
+    .BiografiaTexto{
+        transform: translateX(-185px);
+    }
+    .Footer{
+        transform: translateY(90px);
+    }
+    .BiografiaTextBox{
+        left: 50%;
+        transform: translate(-50%) translateY(-65px);
+    }
+    .CompetênciasDiv{
+        transform: scale(0.8) translateX(-315px) translateY(130px);
+    }
+    .ProjetosDiv{
+        transform: scale(0.5) translateY(-190px) translateX(-830px);
+        overflow-x: visible;
+    }
+    .Footer{
+        transform: translateY(-10px);
+    }
+}
+@media screen and (max-width: 493px){
+    .BiografiaTexto{
+        transform: translateX(-175px);
+    }
+    .CompetênciasBTN{
+        font-size: 17px;
+    }
+}
+@media screen and (max-width: 465px){
+    .BiografiaTexto{
+        transform: translateX(-168px);
+    }
+    .ServiçosDiv{
+        transform: scale(0.9) translateX(-250px) translateY(100px);
+    }
+}
+@media screen and (max-width: 443px){
+    .Footer{
+        transform: translateY(30px);
+    }
+    .BiografiaTexto{
+        transform: translateX(-158px);
+    }
+}
+@media screen and (max-width: 434px){
+    .BiografiaTexto{
+        transform: translateX(-155 px);
+    }
+}
+@media screen and (max-width: 419px){
+    .BiografiaTexto{
+        transform: translateX(-150px);
+    }
+    .CompetênciasDiv{
+        transform: scale(0.7) translateY(100px) translateX(-350px);
+    }
+    .ProjetosDiv{
+        transform: translateX(-405px) scale(0.5) translateY(-200px);
+    }
+}
+@media screen and (max-width: 405px){
+    .CompetênciasBTN{
+        font-size: 15px;
+    }
+    .ServiçosDiv{
+        transform: scale(0.8) translateX(-280px) translateY(100px);
+    }
+    .BiografiaTexto{
+        transform: translateX(-140px);
+    }
+}
+@media screen and (max-width: 390px){
+    .CompetênciasBTN{
+        font-size: 15px;
+    }
+    .ServiçosDiv{
+        transform: scale(0.8) translateX(-280px) translateY(100px);
+    }
+    .BiografiaTexto{
+        font-size: 18px;
+        transform: translateX(-140px);
     }
 }
