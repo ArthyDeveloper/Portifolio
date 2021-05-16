@@ -178,14 +178,20 @@
     }
 
     .DetalhesText{
-        background: none;
+        background: gray;
         color: white;
         font-size: 35px;
         position: absolute;
+        width: 190px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        border-radius: 50px;
+        align-items: center;
         top: 10%;
         left: 50%;
         transform: translate(-50%, -10%);
         cursor: default;
+        box-shadow: -6px 6px rgb(116, 116, 116);
     }
     .BotõesCaixaGeral{
         background: none;
@@ -471,17 +477,24 @@
     }
 }
 
+
 @media screen and (max-width: 768px){
+    .BiografiaTexto{
+        font-size: 24px;
+    }
     .ServiçosBTN, .CompetênciasBTN, .ProjetosBTN{
         font-size: 20px;
     }
-
+    
     .ProjetosDiv{
-        transform: scale(0.65) translateY(-80px) translateX(-842px);
+        transform: scale(0.65) translateY(-80px) translateX(-850px);
     }
     .CompetênciasDiv{
         width: 500px;
         height: 220px;
+    }
+    .HtmlIMG, .CssIMG, .JavaScriptIMG{
+        height: 50px;
     }
     .ServiçosDiv{
         height: 150px;
@@ -496,12 +509,74 @@
     .JavaScriptText{
         width: 130px;
     }
-
+    
     .Footer{
         transform: translateY(50px);
     }
     .ItensFooter{
         transform: scale(0.8) translate(-63.5%);
         left: 50%;
+    }
+}
+
+@media screen and (max-width: 744px){
+    .ProjetosDiv{
+        display: inline-block;
+        width: 900px;
+        height: 1000px;
+        position: relative;
+        top: -10%;
+        transform: translateX(-380px) translateY(-60px) scale(0.65);
+    }
+    .Projeto2{
+        float:right;
+        position: relative;
+        top: -35%;
+        left: -20%;
+    }
+    .Projeto3{
+        position: relative;
+        left: 20%;
+        top: 5%
+    }
+    .Footer{
+        transform: translateY(100px);
+    }
+    .CompetênciasDiv{
+        transform: translateY(130px) translateX(-250px);
+    }
+    .ServiçosDiv{
+        transform: translateY(130px) translateX(-335px);
+    }
+}
+
+@media screen and (max-width: 700px){
+    .ServiçosDiv{
+        transform: scale(0.9) translateX(-370px) translateY(130px);
+        position: relative;
+    }
+    .CompetênciasDiv{
+        transform: translateX(-245px) translateY(130px);
+    }
+    .BotõesCaixaGeral{
+        transform: translateY(5px) translateX(-345px);
+    }
+    .ProjetosDiv{
+        transform: translateY(-30px) scale(0.7) translateX(-545px);
+    }
+    .Footer{
+        height: 200px;
+    }
+    .ContatosText{
+        top: 15px;
+    }
+    .ItensFooter{
+        top: 25px;
+    }
+}
+
+@media screen and (max-width: 686px){
+    .BiografiaTexto{
+        font-size: 21px;
     }
 }
