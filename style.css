@@ -381,8 +381,8 @@
     }
 
     .HtmlIMG, .CssIMG, .JavaScriptIMG{
-        height: 20vh;
-        width: 10vw;
+        height: 70px;
+        width: 70px;
         min-width: 100px;
         min-height: 100px;
         background: none;
@@ -491,7 +491,23 @@
     }
 }
 
+@media screen and (max-width: 1196px){
+    .BiografiaTextBox{
+        transform: translateY(-80px) translate(-50%);
+        left: 50%;
+    }
+}
 
+@media screen and (max-width: 1095px){
+    .ProjetosDiv{
+        transform: scale(0.8) translateX(-690px);
+    }
+}
+@media screen and (max-width: 878px){
+    .ProjetosDiv{
+        transform: scale(0.7) translateX(-780px) translateY(-60px);
+    }
+}
 @media screen and (max-width: 768px){
     .BiografiaTexto{
         font-size: 24px;
@@ -501,18 +517,19 @@
     }
     
     .ProjetosDiv{
-        transform: scale(0.65) translateY(-80px) translateX(-850px);
+        transform: scale(0.65) translateY(50px) translateX(-850px);
     }
     .CompetênciasDiv{
         width: 500px;
-        height: 220px;
+        height: 200px;
+        top: 350px
     }
     .HtmlIMG, .CssIMG, .JavaScriptIMG{
         height: 50px;
     }
     .ServiçosDiv{
         height: 150px;
-        top: 220px
+        top: 300px
     }
     .LiText{
         top: 30px;
@@ -557,29 +574,30 @@
         transform: translateY(100px);
     }
     .CompetênciasDiv{
-        transform: translateY(130px) translateX(-250px);
+        transform: translateY(50px) translateX(-250px);
     }
     .ServiçosDiv{
-        transform: translateY(130px) translateX(-335px);
+        transform: translateY(50px) translateX(-335px);
     }
 }
 
 @media screen and (max-width: 700px){
     .ServiçosDiv{
-        transform: scale(0.9) translateX(-370px) translateY(130px);
+        transform: scale(0.9) translateX(-370px) translateY(50px);
         position: relative;
     }
     .CompetênciasDiv{
-        transform: translateX(-245px) translateY(130px);
+        transform: translateX(-245px) translateY(50px);
     }
     .BotõesCaixaGeral{
         left: 50%;
     }
     .ProjetosDiv{
-        transform: translateY(-30px) scale(0.7) translateX(-545px);
+        transform: translateY(-60px) scale(0.65) translateX(-600px);
     }
     .Footer{
         height: 200px;
+        transform: translateY(50px);
     }
     .ContatosText{
         top: 15px;
@@ -608,7 +626,7 @@
     }
     .ServiçosDiv{
         width: 550px;
-        transform: translateX(-270px) translateY(130px);
+        transform: translateX(-270px) translateY(50px);
         justify-content: center;
         text-align: center;
         box-shadow: -6px 6px rgb(116, 116, 116);
@@ -632,7 +650,7 @@
     .ServiçosDiv{
         width: 450px;
         height: 120px;
-        transform: translateX(-220px) translateY(130px);
+        transform: translateX(-220px) translateY(50px);
         justify-content: center;
         text-align: center;
         box-shadow: -6px 6px rgb(116, 116, 116);
@@ -694,7 +712,7 @@
         transform: translate(-50%) translateY(-65px);
     }
     .CompetênciasDiv{
-        transform: scale(0.8) translateX(-315px) translateY(130px);
+        transform: scale(0.8) translateX(-315px) translateY(0px);
     }
     .ProjetosDiv{
         transform: scale(0.5) translateY(-190px) translateX(-830px);
@@ -702,6 +720,9 @@
     }
     .Footer{
         transform: translateY(-10px);
+    }
+    .ServiçosDiv{
+        transform: translateX(-220px) translateY(0px);
     }
 }
 @media screen and (max-width: 493px){
@@ -717,7 +738,7 @@
         transform: translateX(-168px);
     }
     .ServiçosDiv{
-        transform: scale(0.9) translateX(-250px) translateY(100px);
+        transform: scale(0.9) translateX(-250px) translateY(0px);
     }
 }
 @media screen and (max-width: 443px){
@@ -749,7 +770,7 @@
         font-size: 15px;
     }
     .ServiçosDiv{
-        transform: scale(0.8) translateX(-280px) translateY(100px);
+        transform: scale(0.8) translateX(-280px) translateY(0px);
     }
     .BiografiaTexto{
         transform: translateX(-140px);
@@ -759,11 +780,67 @@
     .CompetênciasBTN{
         font-size: 15px;
     }
+    .CompetênciasDiv{
+        transform: scale(0.65) translateY(0px) translateX(-380px);
+    }
     .ServiçosDiv{
-        transform: scale(0.8) translateX(-280px) translateY(100px);
+        transform: scale(0.8) translateX(-280px) translateY(0px);
     }
     .BiografiaTexto{
         font-size: 18px;
         transform: translateX(-140px);
+    }
+}
+@media screen and (max-width: 368px){
+    .ProjetosDiv{
+        transform: scale(0.45) translateX(-900px) translateY(-250px);
+    }
+    .ServiçosDiv{
+        transform: scale(0.7) translateX(-320px);
+    }
+    .BiografiaTexto{
+        font-size: 16px;
+        transform: translateX(-130px);
+    }
+    .CompetênciasBTN{
+        font-size: 13px;
+    }
+    .BemVindoP{
+        font-size: 13px;
+    }
+}
+@media screen and (max-width: 350px){
+    .CompetênciasDiv{
+        transform: scale(0.6) translateX(-410px);
+    }
+    .BiografiaTexto{
+        transform: translateX(-122px);
+    }
+}
+@media screen and (max-width: 343px){
+    .ProjetosDiv{
+        transform: scale(0.48) translateX(-870px) translateY(-270px);
+    }
+    .Projeto1{
+        transform: translateX(210px);
+    }
+    .Projeto2{
+        float: none;
+        transform: translateY(375px) translateX(390px);
+    }
+    .BiografiaTexto{
+        font-size: 14.5px;
+        transform: translateX(-120px);
+    }
+}
+@media screen and (max-width: 335px){
+    .BiografiaTexto{
+        font-size: 14.2px;
+        transform: translateX(-115px);
+    }
+}
+@media screen and (max-width: 325px){
+    .ServiçosDiv{
+        transform: scale(0.65) translateX(-340px) translateY(50px);
     }
 }
