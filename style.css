@@ -754,6 +754,11 @@
         transform: translateX(-155 px);
     }
 }
+@media screen and (max-height: 768px){
+    .Footer{
+        transform: translateY(22px);
+    }
+}
 @media screen and (max-height: 730px){
     .Footer{
         transform: translateY(70px);
